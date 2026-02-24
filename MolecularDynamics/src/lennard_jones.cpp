@@ -1,5 +1,5 @@
-#include "../include/lennard_jones.h"
-#include "../include/constants.h"
+#include "lennard_jones.h"
+#include "constants.h"
 #include <cmath>
 
 using namespace std;
@@ -18,7 +18,6 @@ LennardJones::LennardJones() {
     lj_cutoff = Constants::LJ_CUTOFF * Constants::ANGSTROM_TO_METERS;
 }
 
-// Redundant methods removed. Using Vec3::apply_pbc_vector directly.
 
 void LennardJones::calculate_lj_forces(vector<Particle>& particles, double box_size) {
     const size_t n = particles.size();

@@ -1,4 +1,4 @@
-#include "../include/terminal_ui.h"
+#include "terminal_ui.h"
 #include <iostream>
 #include <iomanip>
 

@@ -1,4 +1,4 @@
-#include "../include/md_reporter.h"
+#include "md_reporter.h"
 #include <iomanip>
 #include <iostream>
 #include <filesystem>
@@ -25,6 +25,20 @@ void MDReporter::export_topology(const OptimizedMolecularDynamics& engine, const
         const auto& mol = molecules[i];
         file << i << "," << mol.type << "," << (int)mol.atom_indices.size()
              << "," << (int)mol.bonds.size() << "," << (int)mol.angles.size() << "\n";
+    }
+
+    file << "\nBond details (mol_id, atom1, atom2, type)\n";
+    for (size_t i = 0; i < molecules.size(); ++i) {
+        for (const auto& bond : molecules[i].bonds) {
+            file << i << "," << bond.first << "," << bond.second << ",bond\n";
+        }
+    }
+
+    file << "\nAngle details (mol_id, atom1, atom2, atom3)\n";
+    for (size_t i = 0; i < molecules.size(); ++i) {
+        for (const auto& angle : molecules[i].angles) {
+            file << i << "," << angle[0] << "," << angle[1] << "," << angle[2] << "\n";
+        }
     }
 }
 

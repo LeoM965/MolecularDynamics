@@ -1,3 +1,20 @@
 molecule_id,molecule_type,atom_count,bond_count,angle_count
 0,methane,5,4,6
 1,water,3,2,1
+
+Bond details (mol_id, atom1, atom2, type)
+0,0,1,bond
+0,0,2,bond
+0,0,3,bond
+0,0,4,bond
+1,5,6,bond
+1,5,7,bond
+
+Angle details (mol_id, atom1, atom2, atom3)
+0,1,0,2
+0,1,0,3
+0,1,0,4
+0,2,0,3
+0,2,0,4
+0,3,0,4
+1,6,5,7

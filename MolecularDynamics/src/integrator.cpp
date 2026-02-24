@@ -1,4 +1,4 @@
-#include "../include/integrator.h"
+#include "integrator.h"
 #include <cmath>
 #include <algorithm>
 #include <stdexcept>

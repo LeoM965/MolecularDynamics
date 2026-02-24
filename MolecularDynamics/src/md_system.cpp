@@ -1,4 +1,4 @@
-#include "../include/md_system.h"
+#include "md_system.h"
 #include <iostream>
 #include <iomanip>
 #include <random>

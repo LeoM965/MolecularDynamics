@@ -1,7 +1,7 @@
-#include "../include/md_system.h"
-#include "../include/config.h"
-#include "../include/md_reporter.h"
-#include "../include/terminal_ui.h"
+#include "md_system.h"
+#include "config.h"
+#include "md_reporter.h"
+#include "terminal_ui.h"
 #include <vector>
 #include <memory>
 #include <iostream>

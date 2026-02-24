@@ -1,6 +1,9 @@
-﻿  main.cpp
+﻿  lennard_jones.cpp
+  integrator.cpp
+  main.cpp
   md_system.cpp
+  molecule_registry.cpp
   md_reporter.cpp
   terminal_ui.cpp
   Generating Code...
-  MolecularDynamics.vcxproj -> C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\x64\Debug\MolecularDynamics.exe
+LINK : fatal error LNK1285: corrupt PDB file 'C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\x64\Debug\MolecularDynamics.pdb'; delete and rebuild
