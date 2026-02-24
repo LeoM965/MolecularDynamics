@@ -88,5 +88,30 @@ double OptimizedMolecularDynamics::calculate_temperature() const {
 }
 
 void OptimizedMolecularDynamics::analyze_stability() const {
-    // Basic implementation for now
+    double max_bond_dev = 0.0;
+    double max_angle_dev = 0.0;
+
+    for (const auto& mol : molecules) {
+        for (size_t j = 0; j < mol.bonds.size(); ++j) {
+            double len = calculate_bond_length(particles[mol.bonds[j].first], particles[mol.bonds[j].second]);
+            double dev = std::abs(len - mol.bond_lengths[j]);
+            max_bond_dev = std::max(max_bond_dev, dev);
+        }
+        for (size_t j = 0; j < mol.angles.size(); ++j) {
+            double ang = calculate_angle(particles[mol.angles[j][0]], particles[mol.angles[j][1]], particles[mol.angles[j][2]]);
+            double dev = std::abs(ang - mol.angle_degrees[j]);
+            max_angle_dev = std::max(max_angle_dev, dev);
+        }
+    }
+
+    std::cout << "  - Max Bond Deviation: " << std::fixed << std::setprecision(4) << max_bond_dev << " A\n";
+    std::cout << "  - Max Angle Deviation: " << std::fixed << std::setprecision(2) << max_angle_dev << " deg\n";
+
+    if (max_bond_dev < 0.1 && max_angle_dev < 15.0) {
+        std::cout << "\033[1;32m  [STATUS] SYSTEM STABLE\033[0m\n";
+    } else if (max_bond_dev < 0.5) {
+        std::cout << "\033[1;33m  [STATUS] SYSTEM MODERATELY STABLE\033[0m\n";
+    } else {
+        std::cout << "\033[1;31m  [STATUS] SYSTEM UNSTABLE - REDUCE DT\033[0m\n";
+    }
 }

@@ -4,6 +4,7 @@
 #include "../include/terminal_ui.h"
 #include <vector>
 #include <memory>
+#include <iostream>
 
 int main() {
     try {
@@ -30,6 +31,7 @@ int main() {
                 TerminalUI::print_progress(step, config.total_steps, engine->calculate_temperature(), 0.0);
             }
         }
+        std::cout << std::endl;
 
         reporter->export_xyz(*engine, "output/final.xyz", config.total_steps);
         TerminalUI::log_info("Analyzing stability...");
