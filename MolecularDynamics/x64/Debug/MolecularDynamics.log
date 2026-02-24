@@ -1,2 +1,18 @@
-﻿  main.cpp
-  MolecularDynamics.vcxproj -> C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\x64\Debug\MolecularDynamics.exe
+﻿  lennard_jones.cpp
+  integrator.cpp
+  main.cpp
+  md_system.cpp
+  molecule_registry.cpp
+  md_reporter.cpp
+C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\MolecularDynamics\src\md_reporter.cpp(18,15): error C2228: left of '.is_open' must have class/struct/union
+C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\MolecularDynamics\src\md_reporter.cpp(21,10): error C2296: '<<': not valid as left operand has type 'std::ofstream (__cdecl *)(std::string)'
+C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\MolecularDynamics\src\md_reporter.cpp(21,10): error C2297: '<<': not valid as right operand has type 'const char [61]'
+C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\MolecularDynamics\src\md_reporter.cpp(24,14): error C2296: '<<': not valid as left operand has type 'std::ofstream (__cdecl *)(std::string)'
+C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\MolecularDynamics\src\md_reporter.cpp(35,10): error C2296: '<<': not valid as left operand has type 'std::ofstream (__cdecl *)(std::string)'
+C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\MolecularDynamics\src\md_reporter.cpp(36,10): error C2296: '<<': not valid as left operand has type 'std::ofstream (__cdecl *)(std::string)'
+C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\MolecularDynamics\src\md_reporter.cpp(36,10): error C2297: '<<': not valid as right operand has type 'std::ios_base &(__cdecl *)(std::ios_base &)'
+C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\MolecularDynamics\src\md_reporter.cpp(40,14): error C2296: '<<': not valid as left operand has type 'std::ofstream (__cdecl *)(std::string)'
+C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\MolecularDynamics\src\md_reporter.cpp(40,14): error C2297: '<<': not valid as right operand has type 'const char *const '
+  terminal_ui.cpp
+C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\MolecularDynamics\src\terminal_ui.cpp(15,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Generating Code...

@@ -1,0 +1,352 @@
+﻿
+  Structured output 
+is enabled. The 
+formatting of 
+compiler diagnostics 
+will reflect the 
+error hierarchy. See h
+ttps://aka.ms/cpp/stru
+ctured-output for 
+more details.
+  C:\Program 
+Files\Microsoft 
+Visual Studio\2022\Com
+munity\VC\Tools\MSVC\1
+4.43.34808\bin\HostX86
+\x64\CL.exe /c /Zi 
+/nologo /W3 /WX- 
+/diagnostics:column 
+/sdl /O2 /Oi /GL /D 
+NDEBUG /D _CONSOLE /D 
+_UNICODE /D UNICODE 
+/Gm- /EHsc /MD /GS 
+/Gy /fp:precise 
+/Zc:wchar_t 
+/Zc:forScope 
+/Zc:inline /std:c++17 
+/permissive- 
+/Fo"x64\Release\\" /Fd
+"x64\Release\vc143.pdb
+" /external:W3 /Gd 
+/TP /FC 
+/errorReport:queue 
+src\lennard_jones.cpp 
+src\integrator.cpp 
+src\main.cpp 
+src\md_system.cpp src\
+molecule_registry.cpp 
+src\md_reporter.cpp 
+src\terminal_ui.cpp
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\src\md_reporter.
+cpp(18,15): error 
+C2228: left of 
+'.is_open' must have 
+class/struct/union [C:
+\Users\europe\OneDrive
+\Desktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\src\md_reporter.
+cpp(21,10): error 
+C2296: '<<': not 
+valid as left operand 
+has type 
+'std::ofstream 
+(__cdecl 
+*)(std::string)' [C:\U
+sers\europe\OneDrive\D
+esktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\src\md_reporter.
+cpp(21,10): error 
+C2297: '<<': not 
+valid as right 
+operand has type 
+'const char [61]' [C:\
+Users\europe\OneDrive\
+Desktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\src\md_reporter.
+cpp(24,14): error 
+C2296: '<<': not 
+valid as left operand 
+has type 
+'std::ofstream 
+(__cdecl 
+*)(std::string)' [C:\U
+sers\europe\OneDrive\D
+esktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\src\md_reporter.
+cpp(35,10): error 
+C2296: '<<': not 
+valid as left operand 
+has type 
+'std::ofstream 
+(__cdecl 
+*)(std::string)' [C:\U
+sers\europe\OneDrive\D
+esktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\src\md_reporter.
+cpp(36,10): error 
+C2296: '<<': not 
+valid as left operand 
+has type 
+'std::ofstream 
+(__cdecl 
+*)(std::string)' [C:\U
+sers\europe\OneDrive\D
+esktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\src\md_reporter.
+cpp(36,10): error 
+C2297: '<<': not 
+valid as right 
+operand has type 
+'std::ios_base 
+&(__cdecl 
+*)(std::ios_base &)' [
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\MolecularDynamic
+s.vcxproj]
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\src\md_reporter.
+cpp(40,14): error 
+C2296: '<<': not 
+valid as left operand 
+has type 
+'std::ofstream 
+(__cdecl 
+*)(std::string)' [C:\U
+sers\europe\OneDrive\D
+esktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\src\md_reporter.
+cpp(40,14): error 
+C2297: '<<': not 
+valid as right 
+operand has type 
+'const char *const ' [
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\MolecularDynamic
+s.vcxproj]
+  C:\Users\europe\OneD
+rive\Desktop\Aplicatii
+le mele chimice\Molecu
+larDynamics\MolecularD
+ynamics\src\md_reporte
+r.cpp(18,15): error 
+C2228: left of 
+'.is_open' must have 
+class/struct/union [C:
+\Users\europe\OneDrive
+\Desktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+  C:\Users\europe\OneD
+rive\Desktop\Aplicatii
+le mele chimice\Molecu
+larDynamics\MolecularD
+ynamics\src\md_reporte
+r.cpp(21,10): error 
+C2296: '<<': not 
+valid as left operand 
+has type 
+'std::ofstream 
+(__cdecl 
+*)(std::string)' [C:\U
+sers\europe\OneDrive\D
+esktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+  C:\Users\europe\OneD
+rive\Desktop\Aplicatii
+le mele chimice\Molecu
+larDynamics\MolecularD
+ynamics\src\md_reporte
+r.cpp(21,10): error 
+C2297: '<<': not 
+valid as right 
+operand has type 
+'const char [61]' [C:\
+Users\europe\OneDrive\
+Desktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+  C:\Users\europe\OneD
+rive\Desktop\Aplicatii
+le mele chimice\Molecu
+larDynamics\MolecularD
+ynamics\src\md_reporte
+r.cpp(24,14): error 
+C2296: '<<': not 
+valid as left operand 
+has type 
+'std::ofstream 
+(__cdecl 
+*)(std::string)' [C:\U
+sers\europe\OneDrive\D
+esktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+  C:\Users\europe\OneD
+rive\Desktop\Aplicatii
+le mele chimice\Molecu
+larDynamics\MolecularD
+ynamics\src\md_reporte
+r.cpp(35,10): error 
+C2296: '<<': not 
+valid as left operand 
+has type 
+'std::ofstream 
+(__cdecl 
+*)(std::string)' [C:\U
+sers\europe\OneDrive\D
+esktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+  C:\Users\europe\OneD
+rive\Desktop\Aplicatii
+le mele chimice\Molecu
+larDynamics\MolecularD
+ynamics\src\md_reporte
+r.cpp(36,10): error 
+C2296: '<<': not 
+valid as left operand 
+has type 
+'std::ofstream 
+(__cdecl 
+*)(std::string)' [C:\U
+sers\europe\OneDrive\D
+esktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+  C:\Users\europe\OneD
+rive\Desktop\Aplicatii
+le mele chimice\Molecu
+larDynamics\MolecularD
+ynamics\src\md_reporte
+r.cpp(36,10): error 
+C2297: '<<': not 
+valid as right 
+operand has type 
+'std::ios_base 
+&(__cdecl 
+*)(std::ios_base &)' [
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\MolecularDynamic
+s.vcxproj]
+  C:\Users\europe\OneD
+rive\Desktop\Aplicatii
+le mele chimice\Molecu
+larDynamics\MolecularD
+ynamics\src\md_reporte
+r.cpp(40,14): error 
+C2296: '<<': not 
+valid as left operand 
+has type 
+'std::ofstream 
+(__cdecl 
+*)(std::string)' [C:\U
+sers\europe\OneDrive\D
+esktop\Aplicatiile 
+mele chimice\Molecular
+Dynamics\MolecularDyna
+mics\MolecularDynamics
+.vcxproj]
+  C:\Users\europe\OneD
+rive\Desktop\Aplicatii
+le mele chimice\Molecu
+larDynamics\MolecularD
+ynamics\src\md_reporte
+r.cpp(40,14): error 
+C2297: '<<': not 
+valid as right 
+operand has type 
+'const char *const ' [
+C:\Users\europe\OneDri
+ve\Desktop\Aplicatiile
+ mele chimice\Molecula
+rDynamics\MolecularDyn
+amics\MolecularDynamic
+s.vcxproj]
+    9 Error(s)
+
+

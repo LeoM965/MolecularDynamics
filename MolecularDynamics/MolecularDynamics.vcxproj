@@ -20,11 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\lennard_jones.cpp" />
-    <ClCompile Include="src\md_export.cpp" />
     <ClCompile Include="src\integrator.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\md_system.cpp" />
     <ClCompile Include="src\molecule_registry.cpp" />
+    <ClCompile Include="src\md_reporter.cpp" />
+    <ClCompile Include="src\terminal_ui.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\constants.h" />
@@ -34,6 +35,9 @@
     <ClInclude Include="include\molecule_registry.h" />
     <ClInclude Include="include\particle.h" />
     <ClInclude Include="include\vec3.h" />
+    <ClInclude Include="include\config.h" />
+    <ClInclude Include="include\md_reporter.h" />
+    <ClInclude Include="include\terminal_ui.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -121,6 +125,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -135,6 +140,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

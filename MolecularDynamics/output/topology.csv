@@ -1,0 +1,3 @@
+molecule_id,molecule_type,atom_count,bond_count,angle_count
+0,methane,5,4,6
+1,water,3,2,1
