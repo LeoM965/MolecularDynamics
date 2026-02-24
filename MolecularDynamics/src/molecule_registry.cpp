@@ -1,4 +1,4 @@
-#include "molecule_registry.h"
+#include "../include/molecule_registry.h"
 
 using namespace std;
 

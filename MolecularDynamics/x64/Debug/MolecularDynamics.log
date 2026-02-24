@@ -1,9 +1,9 @@
 ﻿  lennard_jones.cpp
+  md_export.cpp
   integrator.cpp
   main.cpp
   md_system.cpp
   molecule_registry.cpp
-  md_reporter.cpp
-  terminal_ui.cpp
   Generating Code...
+  LINK : C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\x64\Debug\MolecularDynamics.exe not found or not built by the last incremental link; performing full link
 LINK : fatal error LNK1285: corrupt PDB file 'C:\Users\europe\OneDrive\Desktop\Aplicatiile mele chimice\MolecularDynamics\x64\Debug\MolecularDynamics.pdb'; delete and rebuild

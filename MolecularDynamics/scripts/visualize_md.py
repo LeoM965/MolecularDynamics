@@ -1,6 +1,4 @@
 ﻿import pandas as pd
-import matplotlib
-matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
@@ -187,13 +185,12 @@ for i, step in enumerate(steps):
                            transform=ax_legend.transAxes, va='center', color='#2C3E50')
 
     plt.tight_layout()
-    if i == len(steps) - 1:
-        plt.savefig("output/visualization_final.png", dpi=150, facecolor='#F8FAFC')
+    plt.draw()
+    plt.pause(0.3)
 
-# plt.show() - Headless mode using Agg backend
-
+plt.ioff()
+plt.show()
 
 print(f"\nMolecular dynamics visualization completed!")
-print(f"Final visualization saved to 'output/visualization_final.png'")
 print(f"Processed {len(steps)} simulation steps")
 print(f"Tracked {len(molecules)} different molecules")
