@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.pdb
+*.obj
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
+*.ilk
+*.exe
+*.dll
+
+# Simulation Output
+MolecularDynamics/output/*.csv
+MolecularDynamics/output/*.xyz
+MolecularDynamics/plots/
+build_log.txt
+
+# Python
+__pycache__/
+*.pyc

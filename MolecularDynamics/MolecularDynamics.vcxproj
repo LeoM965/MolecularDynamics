@@ -19,22 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lennard_jones.cpp" />
-    <ClCompile Include="md_export.cpp" />
-    <ClCompile Include="integrator.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="md_system.cpp" />
-    <ClCompile Include="molecular_dynamics_simulation.cpp" />
-    <ClCompile Include="molecule_registry.cpp" />
+    <ClCompile Include="src\lennard_jones.cpp" />
+    <ClCompile Include="src\md_export.cpp" />
+    <ClCompile Include="src\integrator.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\md_system.cpp" />
+    <ClCompile Include="src\molecule_registry.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="constants.h" />
-    <ClInclude Include="integrator.h" />
-    <ClInclude Include="lennard_jones.h" />
-    <ClInclude Include="md_system.h" />
-    <ClInclude Include="molecule_registry.h" />
-    <ClInclude Include="particle.h" />
-    <ClInclude Include="vec3.h" />
+    <ClInclude Include="include\constants.h" />
+    <ClInclude Include="include\integrator.h" />
+    <ClInclude Include="include\lennard_jones.h" />
+    <ClInclude Include="include\md_system.h" />
+    <ClInclude Include="include\molecule_registry.h" />
+    <ClInclude Include="include\particle.h" />
+    <ClInclude Include="include\vec3.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

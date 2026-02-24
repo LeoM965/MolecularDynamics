@@ -15,48 +15,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="molecular_dynamics_simulation.cpp">
+    <ClCompile Include="src\molecule_registry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="molecule_registry.cpp">
+    <ClCompile Include="src\integrator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="integrator.cpp">
+    <ClCompile Include="src\md_export.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="md_export.cpp">
+    <ClCompile Include="src\md_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="md_system.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="lennard_jones.cpp">
+    <ClCompile Include="src\lennard_jones.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="constants.h">
+    <ClInclude Include="include\constants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="vec3.h">
+    <ClInclude Include="include\vec3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="particle.h">
+    <ClInclude Include="include\particle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="molecule_registry.h">
+    <ClInclude Include="include\molecule_registry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="integrator.h">
+    <ClInclude Include="include\integrator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="md_system.h">
+    <ClInclude Include="include\md_system.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lennard_jones.h">
+    <ClInclude Include="include\lennard_jones.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
